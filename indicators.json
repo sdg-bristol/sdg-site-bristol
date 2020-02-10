@@ -15,11 +15,11 @@
         },
         {
           "id": "1-2-1",
-          "title": "1.2.1 Proportion of population living below the national poverty line, by sex and age",
-          "description": "The percentage of people who are living in households which are deemed at risk of poverty in the national context. Monitoring national poverty is important for country-specific development agendas. National poverty lines are used to make more accurate estimates of poverty consistent with the country’s specific economic and social circumstances, and are not intended for international comparisons of poverty rates.",
-          "keywords": "Population",
+          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "description": "",
+          "keywords": "",
           "href": "/sdg-site-bristol/1-2-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-2-2",
