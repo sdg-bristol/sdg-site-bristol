@@ -151,11 +151,11 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
-          "description": "",
-          "keywords": "",
+          "title": "2.2.2 Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children, by type (wasting and overweight)",
+          "description": "Percentage of  children categorised as underweight, overweight or obese based on body mass index (BMI) classifications.",
+          "keywords": "Nutrition, health",
           "href": "/sdg-site-bristol/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-1",
