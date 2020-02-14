@@ -831,11 +831,11 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "8.1.1 Annual growth rate of real GDP per capita",
           "description": "",
-          "keywords": "",
+          "keywords": "GVA",
           "href": "/sdg-site-bristol/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
