@@ -977,7 +977,6 @@ header .container {
     .navbar #search input {
       padding: 5px;
       padding-left: 5px;
-      padding-right: 45px;
       width: 240px;
       height: 34px;
       transition: width 0.4s;
@@ -985,7 +984,6 @@ header .container {
       font-size: 16px; }
 
 #search-btn {
-  line-height: 15px;
   height: 34px; }
 
 .table .table-value {
@@ -1490,8 +1488,6 @@ footer {
     margin-top: 2rem !important; }
 #main-content #selectionsTable {
   padding-bottom: 20px; }
-  #main-content #selectionsTable.table-has-no-data #selectionTableFooter {
-    display: none; }
   #main-content #selectionsTable div.dataTables_wrapper {
     overflow-x: auto; }
     #main-content #selectionsTable div.dataTables_wrapper .row {
@@ -1522,8 +1518,6 @@ footer {
       margin: 0 0 5px; }
 #main-content #selectionsChart {
   padding-bottom: 20px; }
-  #main-content #selectionsChart.chart-has-no-data #selectionChartFooter {
-    display: none; }
 #main-content #selectionChartFooter {
   font-size: 12px;
   line-height: 1.2;
@@ -1831,9 +1825,3 @@ body.contrast-high #search-results .search-result .content {
   margin-top: 40px; }
   .layout-frontpage-alt .frontpage-cards .row {
     margin-bottom: 20px; }
-
-.layout-goals .goals-page-description {
-  margin-bottom: 20px; }
-
-.layout-goals.contrast-high .goals-page-description {
-  color: white; }
