@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20200922102330">
+        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20200922103046">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -258,7 +258,7 @@ var translations = {
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
         <div>
           <h1>Indicator 9.2.2</h1>
-          <p class="lead-copy">Manufacturing employment as a percentage of total employment</p>
+          <p class="lead-copy">Manufacturing employment as a proportion of total employment</p>
         </div>
       </div>
     </div>
@@ -278,13 +278,6 @@ var translations = {
 
   
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>Select the following link to download this indicator data in an accessible format:<br /><a href="https://sdg-bristol.github.io/sdg-data-bristol/en/data/9-2-2.csv">Manufacturing employment as a percentage of total employment (CSV 0.052 kB)</a></p>
-
-  </div>
-</div>
-
 
   
 
@@ -299,14 +292,14 @@ var translations = {
   data-indicatorid='indicator_9-2-2'
   data-id="9-2-2"
   data-country="Bristol"
-  data-charttitle="Manufacturing employment as a percentage of total employment"
+  data-charttitle="Manufacturing employment as a proportion of total employment"
   data-charttitles="null"
-  data-measurementunit="Percentage (%)"
-  data-datasource="Office for National Statistics (ONS)"
+  data-measurementunit=""
+  data-datasource=""
   data-copyright=""
-  data-geographicalarea="Bristol"
+  data-geographicalarea=""
   data-footnote=""
-  data-showdata="true"
+  data-showdata="false"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
@@ -315,218 +308,7 @@ var translations = {
   data-stackeddisaggregation=""
 >
   
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="units"></div>
-<div id="toolbar">
-  <span id="series-help">
-    <h4>Sub-categories</h4>
-    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-  </span>
-  <p id="legend-help">Click on the legend to remove individual lines from the chart.</p>
-  <div id="fields">
-    <p class="async-loading" data-img="/sdg-site-bristol/assets/img/loading-small.gif"></p>
-  </div>
-</div>
-
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
-    
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    <a href="https://sdg-bristol.github.io/sdg-data-bristol/en/headline/9-2-2.csv" class="btn btn-primary btn-download" download="indicator_9-2-2.csv" tabindex="0" role="button">Download Headline CSV</a>
-
-    <a href="https://sdg-bristol.github.io/sdg-data-bristol/en/data/9-2-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_9-2-2.csv' tabindex='0' role='button'>Download Source CSV</a>
-
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Manufacturing employment as a percentage of total employment</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">3.9</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">4.3</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">3.7</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">3.7</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
-  </div>
-
-  <div id="datatableFooter">
-    
-    <p>Source: Office for National Statistics (ONS)</p>
-    
-    
-    <p>Geographical Area: Bristol</p>
-    
-    
-    <p>Unit of Measurement: Percentage (%)</p>
-    
-    
-  </div>
-
-</div>
-
-
-<section>
-
-  <p class="async-loading" data-img="/sdg-site-bristol/assets/img/loading-small.gif"></p>
-
-  <div class="async-loaded spacer medium" style="display:none;">
-
-    <ul class="nav nav-tabs data-view" role="tablist">
-  <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
->Chart</a>
-  </li>
-  <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
->Table</a>
-  </li>
-  <li role="presentation" class="nav-item map" style="display:none">
-    <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
->Map</a>
-  </li></ul>
-
-    <div class="tab-content data-view">
-  <div role="tabpanel" class="tab-pane active" id="chartview">
-    
-
-    <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <div id="chart-canvas">
-        <h3 class="chart-title">
-          
-            Manufacturing employment as a percentage of total employment
-          
-        </h3>
-        <div id="chart" class="plot-container">
-          
-<canvas></canvas>
-<script>
-// Add a chart alteration to support the chart_graph_limits metadata field.
-opensdg.chartConfigAlter(function(config, info) {
-  if (info.graphLimits) {
-    var limit = _.findWhere(info.graphLimits, { unit: info.selectedUnit }) || info.graphLimits[0];
-    var overrides = {
-      options: {
-        scales: {
-          yAxes: [{
-            ticks: {
-              min: limit.minimum,
-              max: limit.maximum,
-            }
-          }]
-        }
-      }
-    }
-    // Add these overrides onto the normal config.
-    $.extend(true, config, overrides);
-  }
-});
-</script>
-
-
-        </div>
-        <div id="plotLegend"></div>
-      </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
-      </button>
-    </div>
-    <div id="chartSelectionDownload"></div>
-
-
-
-  </div>
-  <div role="tabpanel" class="tab-pane" id="tableview">
-    <div id="selectionsTable"></div>
-
-  </div>
-  <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-    <div id="map">
-  <img src="/sdg-site-bristol/assets/img/loading.gif" alt="Loading map" />
-</div>
-
-  </div>
-  
-</div>
-
-
-  </div>
-
-</section>
-
+  <div id="indicator-main" class="indicator-main col-md-12">
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -617,7 +399,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Bristol</p>
+            
 
           
         </td>
@@ -631,7 +413,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Percentage (%)</p>
+            
 
           
         </td>
@@ -720,8 +502,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/8affb3fce37e7fc176554f32e0f8c242b7d526c6" target="_blank">
-                2020-02-19: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/ddce90dd5c500e63e322aa272e945c10bdf88d8b" target="_blank">
+                2020-09-22: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -838,7 +620,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>Manufacturing employment as a percentage of total employment</p>
+            <p>Manufacturing employment as a proportion of total employment</p>
 
           
         </td>
@@ -852,7 +634,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            
+            <p>Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries</p>
 
           
         </td>
@@ -866,7 +648,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier I</p>
+            <p>1</p>
 
           
         </td>
@@ -900,7 +682,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf" target="_blank">
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf " target="_blank">
                 United Nations Sustainable Development Goals Metadata (PDF 323 KB) <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1018,264 +800,6 @@ data-event-label="Change to Sources tab"
 
 
 
-  <div class="row no-gutters">
-  
-    
-    
-    <div class="col-md-6">
-      
-      <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            <p>Office for National Statistics (ONS)</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            <p>Annual</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            <p>1995</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>United Kingdom</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://www.nomisweb.co.uk/reports/lmp/la/1946157348/subreports/bres_time_series/report.aspx?" target="_blank">
-                Employee Jobs by Industry <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            <p>National Statistic</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-  </div>
-
 
 </div>
 
@@ -1366,7 +890,7 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-bristol/assets/js/sdg.js?v=20200922102330'></script><script>
+<script src='/sdg-site-bristol/assets/js/sdg.js?v=20200922103046'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
