@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20201211160839">
+        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20201215094213">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -275,6 +275,12 @@ var translations = {
   
 
   
+<div class="row metadata-available-indicator">
+  <div class="col-xs-12">
+    <h2>Percentage in employment who are science, research, engineering and technology profesionals and Percentage in employment who are science, engineering and technology associate professionals</h2>
+  </div>
+</div>
+
 
   
 
@@ -292,14 +298,14 @@ var translations = {
   data-indicatorid='indicator_9-5-2'
   data-id="9-5-2"
   data-country="Bristol"
-  data-charttitle="Researchers (in full-time equivalent) per million inhabitants"
+  data-charttitle="Percentage in employment in specific industries"
   data-charttitles="null"
-  data-measurementunit=""
-  data-datasource=""
+  data-measurementunit="Percentage"
+  data-datasource="NOMIS"
   data-copyright=""
   data-geographicalarea=""
   data-footnote=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
@@ -308,7 +314,684 @@ var translations = {
   data-stackeddisaggregation=""
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+  </span>
+  <p id="legend-help">Click on the legend to remove individual lines from the chart.</p>
+  <div id="fields">
+    <p class="async-loading" data-img="/sdg-site-bristol/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://sdg-bristol.github.io/sdg-data-bristol/en/headline/9-5-2.csv" class="btn btn-primary btn-download" download="indicator_9-5-2.csv" tabindex="0" role="button">Download Headline CSV</a>
+
+    <a href="https://sdg-bristol.github.io/sdg-data-bristol/en/data/9-5-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_9-5-2.csv' tabindex='0' role='button'>Download Source CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Percentage in employment in specific industries</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Units</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2004</td>
+          
+          
+          
+          <td>5.3</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2005</td>
+          
+          
+          
+          <td>6.0</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2006</td>
+          
+          
+          
+          <td>5.9</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2007</td>
+          
+          
+          
+          <td>6.6</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>6.9</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>6.0</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>7.6</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>7.2</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>8.6</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>8.0</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>10.0</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>7.1</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>7.1</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>8.7</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>7.9</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>9.5</td>
+          
+          
+          
+          <td class="table-value">science, research, engineering and technology profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2004</td>
+          
+          
+          
+          <td>2.3</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2005</td>
+          
+          
+          
+          <td>2.2</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2006</td>
+          
+          
+          
+          <td>1.8</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2007</td>
+          
+          
+          
+          <td>1.8</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>1.6</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>1.6</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>2.4</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>2.5</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>1.8</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>3.3</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>1.7</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>1.2</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>3.1</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>2.1</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>2.3</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>1.5</td>
+          
+          
+          
+          <td class="table-value">science, engineering and technology associate profs</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    <p>Source: NOMIS</p>
+    
+    
+    
+    <p>Unit of Measurement: Percentage</p>
+    
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/sdg-site-bristol/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <ul class="nav nav-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>Chart</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Table</a>
+  </li>
+  <li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Map</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <div id="chart-canvas">
+        <h3 class="chart-title">
+          
+            Percentage in employment in specific industries
+          
+        </h3>
+        <div id="chart" class="plot-container">
+          
+<canvas></canvas>
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits) {
+    var limit = _.findWhere(info.graphLimits, { unit: info.selectedUnit }) || info.graphLimits[0];
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: limit.minimum,
+              max: limit.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+
+        </div>
+        <div id="plotLegend"></div>
+      </div>
+      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
+        Download Chart Image
+      </button>
+    </div>
+    <div id="chartSelectionDownload"></div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div id="selectionsTable"></div>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    <div id="map">
+  <img src="/sdg-site-bristol/assets/img/loading.gif" alt="Loading map" />
+</div>
+
+  </div>
+  
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -371,7 +1054,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            
+            <p>Percentage in employment who are science, research, engineering and technology profesionals and Percentage in employment who are science, engineering and technology associate professionals</p>
 
           
         </td>
@@ -413,7 +1096,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Percentage</p>
 
           
         </td>
@@ -427,7 +1110,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Data is using Standard Occupation Classification (2010).Science, Research, Engineering and Technology professionals is based on Sub Major Group 21 and Science, Engineering and Technology associate proffesionals on Sub Major Group 31</p>
 
           
         </td>
@@ -441,7 +1124,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            
+            <p>No Calculations</p>
 
           
         </td>
@@ -475,8 +1158,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/9d2a0e8fbdaa342af930aefe8fd1235dab9a7299" target="_blank">
-                2020-12-11: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/835a871eab415710aedb553dfdd32048f193e204" target="_blank">
+                2020-12-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -502,8 +1185,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/9d2a0e8fbdaa342af930aefe8fd1235dab9a7299" target="_blank">
-                2020-12-11: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/835a871eab415710aedb553dfdd32048f193e204" target="_blank">
+                2020-12-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -800,6 +1483,264 @@ data-event-label="Change to Sources tab"
 
 
 
+  <div class="row no-gutters">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>NOMIS</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            <p>2004</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Bristol</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.nomisweb.co.uk/query/construct/components/variableComponent.asp?menuopt=7&subcomp=130" target="_blank">
+                Annual Population Survey <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            <p>13/10/2020</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            <p>19/01/2021</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            <p>Official</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            <p>support@nomisweb.co.uk</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            <p>Use Jan 20xx - Dec 20xx as annual figures</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
+
 
 </div>
 
@@ -890,7 +1831,7 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-bristol/assets/js/sdg.js?v=20201211160839'></script><script>
+<script src='/sdg-site-bristol/assets/js/sdg.js?v=20201215094213'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
