@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20201216195905">
+        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20201216201205">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -286,7 +286,7 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Home’ Geography loaction not used pre-2002</p>
+    <p>Home’ Geography location not used pre-2002</p>
 
   </div>
 </div>
@@ -307,7 +307,7 @@ var translations = {
   data-country="Bristol"
   data-charttitle="Gender Pay Gap"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Percentage"
   data-datasource="Office for National Statistics"
   data-copyright=""
   data-geographicalarea=""
@@ -364,6 +364,8 @@ var translations = {
     <p>Source: Office for National Statistics</p>
     
     
+    
+    <p>Unit of Measurement: Percentage</p>
     
     
   </div>
@@ -577,7 +579,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Percentage</p>
 
           
         </td>
@@ -591,7 +593,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>The workplace population in a local authority is defined as the population whose usual place of work is in that local authority, including both individuals who live and work in the local authority and individuals who work in the local authority but commute from a home elsewhere within England or Wales. The Resident analysis refers to those who reside from the local authority however the workplace does not have to be within that local authority.</p>
+            <p>Gender pay Gap is based on the percentage difference betwenn the median wages</p>
 
           
         </td>
@@ -639,7 +641,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2d2077b51da3a326b1fa80a1b624f75bdfea247e" target="_blank">
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/5771f505f0ae54515093208f962a944757c8fdce" target="_blank">
                 2020-12-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -666,7 +668,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2d2077b51da3a326b1fa80a1b624f75bdfea247e" target="_blank">
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/5771f505f0ae54515093208f962a944757c8fdce" target="_blank">
                 2020-12-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1092,7 +1094,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>29/10/2019</p>
+            <p>07/12/2020</p>
 
           
         </td>
@@ -1120,7 +1122,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Statistical classification </th>
         <td>
           
-            <p>Official</p>
+            <p>National Statistics</p>
 
           
         </td>
@@ -1148,7 +1150,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>Home’ Geography loaction not used pre-2002</p>
+            <p>Home’ Geography location not used pre-2002</p>
 
           
         </td>
@@ -1312,7 +1314,7 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-bristol/assets/js/sdg.js?v=20201216195905'></script><script>
+<script src='/sdg-site-bristol/assets/js/sdg.js?v=20201216201205'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
