@@ -21,6 +21,8 @@ on:
   push:
     branches:
       - master
+  repository_dispatch:
+    types: rebuild-live
 
 jobs:
   build:
@@ -42,7 +44,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        REPOSITORY_NAME: sustainabledevelopment-bristol/sustainabledevelopment-bristol.github.io
+        REPOSITORY_NAME: bristolsdgs/bristolsdgs.github.io
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: master
         FOLDER: _site
