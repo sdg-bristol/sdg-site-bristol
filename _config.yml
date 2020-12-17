@@ -36,9 +36,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: city.office@bristol.gov.uk 
+  suggestions: city.office@bristol.gov.uk 
+  functional: city.office@bristol.gov.uk 
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -77,9 +77,9 @@ menu:
     translation_key: menu.faq
 
 footer_menu:
-  - path: mailto:my-email-address@example.com
+  - path: mailto:city.office@bristol.gov.uk 
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
+  - path: https://twitter.com/BristolOneCity 
     translation_key: general.twitter
   - path: https://facebook.com/MyFacebookAccount
     translation_key: general.facebook
