@@ -81,8 +81,8 @@ footer_menu:
     translation_key: menu.contact_us
   - path: https://twitter.com/BristolOneCity 
     translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
+  - path: https://www.bristolonecity.com/sdgs/  
+    translation_key: SDGs - Bristol One City
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 
