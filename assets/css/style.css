@@ -1987,7 +1987,7 @@ footer {
       border: 1px solid #0b0c0c; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable,
     #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.notapplicable {
-      color: #0b0c0c;
+      color: white;
       border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .tags .tag {
   color: #0b0c0c;
@@ -2010,7 +2010,7 @@ footer {
     color: #0b0c0c;
     border: 1px solid #0b0c0c; }
   #main-content.goal-indicators .indicator-cards .tags .tag.notapplicable {
-    color: #0b0c0c;
+    color: white;
     border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .match {
   display: inline;
@@ -2249,7 +2249,7 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
         background-color: white; }
     #main-content .statuses > div .status.notapplicable {
       border: 1px solid #0b0c0c;
-      color: #0b0c0c; }
+      color: white; }
       #main-content .statuses > div .status.notapplicable .status-inner {
         background-color: rgba(255, 255, 255, 0.8); }
 #main-content .value {
@@ -2567,7 +2567,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     color: #0b0c0c;
     border: 1px solid #0b0c0c; }
   .layout-goal-by-target-vertical .status.notapplicable {
-    color: #0b0c0c;
+    color: white;
     border: 1px solid #0b0c0c; }
 .layout-goal-by-target-vertical .tags {
   float: left;
@@ -2595,7 +2595,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
       color: #0b0c0c;
       border: 1px solid #0b0c0c; }
     .layout-goal-by-target-vertical .tags .tag.notapplicable {
-      color: #0b0c0c;
+      color: white;
       border: 1px solid #0b0c0c; }
   @media screen and (min-width: 769px) {
     .layout-goal-by-target-vertical .tags {
