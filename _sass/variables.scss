@@ -3,6 +3,9 @@
 // examples of variables. For a full list, see this folder:
 // https://github.com/open-sdg/open-sdg/tree/master/_sass/variables
 
+// NOTE: variables defined in Main SASS can only be overridden here, not used for assignment to ther variables
+//       If this is attempted an unidentified variable error will be raised
+
 //$goal-colors: #E52B3D #DDA63A #4C9F38 #C42130 #FF3E24 #28BCE1 #FCC30B #A21942 #FD6925 #DD1367 #FD9C27 #BF8B2E #417D46 #0A96D8 #57BE2F #00689C #1F4A6A;
 //$goal-banner-backgroundColors: white white white white white white white white white white white white white white white white white;
 //$text-color: #333;
@@ -14,4 +17,4 @@
 //$indicatorContent-horizontalRule-color: transparent;
 //deep grey NA colour
 $status-backgroundColor-notapplicable: #7f8c8d;
-$status-color-notapplicable: $color-light;
+$status-color-notapplicable: white;
