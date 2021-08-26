@@ -12,6 +12,10 @@ url: ""
 data_dir: data
 environment: staging
 
+# 1.2.0 new accessibility options
+accessible_tabs: true
+accessible_charts: true
+
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 remote_data_prefix: "https://sdg-bristol.github.io/sdg-data-bristol"
