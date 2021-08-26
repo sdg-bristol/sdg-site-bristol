@@ -12,7 +12,7 @@ url: ""
 data_dir: data
 environment: staging
 
-# 1.2.0 new accessibility options
+# accessibility options
 accessible_tabs: true
 accessible_charts: true
 
@@ -54,6 +54,9 @@ country:
 #frontpage_heading: Australian data for Sustainable Development Goal indicators
 #frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Australian statistics for Sustainable Development Goal global indicators.
 
+# header can be used to specify new of old style header
+header:
+   include: header-menu-left-aligned.html
 # Pages
 collections:
   pages:
