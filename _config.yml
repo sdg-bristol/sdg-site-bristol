@@ -12,12 +12,23 @@ url: ""
 data_dir: data
 environment: staging
 
-# accessibility options
+# Accessibility options
+# This setting can be set to true to enable tab functionality that is 
+# compliant with the WAI-ARIA best practices. This adds improved keyboard navigation of the tabs. 
+# This defaults to false, however setting this to true is recommended.
 accessible_tabs: true
+# This setting can be set to true to enable chart functionality that is
+# intended to increase accessibility by adding support for screenreaders and keyboard navigation.
+# This defaults to false, however setting this to true is recommended.
 accessible_charts: true
-
-# Graph colour set to use
+# Graph colour set
+# Recommended is accessible
 graph_color_set: accessible
+# Contrast type controls the selector for high contrast.
+# default: Two buttons containing "A" - one for on and one for off (this is the default if you omit this setting)
+# long: If you use this option one single button will be displayed with the text 'High contrast' / 'Default contrast', depending on which mode of contrast is active.
+# single: One button containing "A" which toggles on/off, depending on which mode of contrast is active. This is recommended for the cleanest display.
+contrast_type: single
 
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
@@ -25,7 +36,7 @@ remote_data_prefix: "https://sdg-bristol.github.io/sdg-data-bristol"
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/csv-meta/[id].csv
 
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
