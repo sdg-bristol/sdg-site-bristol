@@ -1,4 +1,5 @@
 # Bristol Open SDG - Site Repository
+![Staging](https://github.com/sdg-bristol/sdg-site-bristol/actions/workflows/deploy-to-staging.yml/badge.svg)  
 This repository holds the site configuration for the Bristol SDG indicators.  
 The main site for viewing these indicators is accessible through the following link: [Bristol Open SDG](https://bristolsdgs.github.io/).  
 
