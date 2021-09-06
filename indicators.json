@@ -1587,7 +1587,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-bristol/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "15-1-1-a",
+          "title": "global_indicators.15-1-1-a-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-bristol/15-1-1-a",
+          "status": "complete"
         },
         {
           "id": "15-1-2",
