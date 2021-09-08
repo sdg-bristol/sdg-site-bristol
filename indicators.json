@@ -452,6 +452,14 @@
           "keywords": "",
           "href": "/sdg-site-bristol/3-d-1",
           "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "Percentage of bloodstream infections due to selected antimicrobial-resistant organisms",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-bristol/3-d-2",
+          "status": "notstarted"
         }]
     }
   },
