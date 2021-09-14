@@ -107,6 +107,29 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 
+map_layers:
+  - min_zoom: 4
+    max_zoom: 6
+    staticBorders: true
+    subfolder: country
+    label: Country
+  - min_zoom: 6
+    max_zoom: 8
+    staticBorders: true
+    subfolder: regions
+    label: Regions
+  - min_zoom: 9
+    max_zoom: 12
+    staticBorders: true
+    subfolder: local_authorities
+    label: Local Authorities
+  - min_zoom: 12
+    max_zoom: 16
+    staticBorders: true
+    subfolder: wards
+    label: Wards
+
+
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
 non_global_metadata: indicator.national_metadata
