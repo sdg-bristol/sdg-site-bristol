@@ -2814,7 +2814,7 @@ var mapView = function () {
     $('#map').sdgMap({
       indicatorId: indicatorId,
       mapOptions: null,
-      mapLayers: null,
+      mapLayers: [{"min_zoom":4,"max_zoom":6,"staticBorders":true,"subfolder":"country","label":"Country"},{"min_zoom":6,"max_zoom":8,"staticBorders":true,"subfolder":"regions","label":"Regions"},{"min_zoom":9,"max_zoom":12,"staticBorders":true,"subfolder":"local_authorities","label":"Local Authorities"},{"min_zoom":12,"max_zoom":16,"staticBorders":true,"subfolder":"wards","label":"Wards"}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
