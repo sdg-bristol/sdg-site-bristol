@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20210930104606">
+        <link rel="stylesheet" href="/sdg-site-bristol/assets/css/style.css?v=20210930121053">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -446,7 +446,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Access to mobile broadband at home - Bristol Average&quot;,&quot;Access to mobile broadband at home - Wards&quot;,&quot;Have used the internet in the last 3 months&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Ward name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Ashley&quot;,&quot;Avonmouth &amp; Lawrence Weston&quot;,&quot;Bedminster&quot;,&quot;Bishopston &amp; Ashley Down&quot;,&quot;Bishopsworth&quot;,&quot;Brislington East&quot;,&quot;Brislington West&quot;,&quot;Central&quot;,&quot;Clifton&quot;,&quot;Clifton Down&quot;,&quot;Cotham&quot;,&quot;Easton&quot;,&quot;Eastville&quot;,&quot;Filwood&quot;,&quot;Frome Vale&quot;,&quot;Hartcliffe &amp; Withywood&quot;,&quot;Henbury &amp; Brentry&quot;,&quot;Hengrove &amp; Whitchurch Park&quot;,&quot;Hillfields&quot;,&quot;Horfield&quot;,&quot;Hotwells &amp; Harbourside&quot;,&quot;Knowle&quot;,&quot;Lawrence Hill&quot;,&quot;Lockleaze&quot;,&quot;Redland&quot;,&quot;Southmead&quot;,&quot;Southville&quot;,&quot;St George Central&quot;,&quot;St George Troopers Hill&quot;,&quot;St George West&quot;,&quot;Stockwood&quot;,&quot;Stoke Bishop&quot;,&quot;Westbury-on-Trym &amp; Henleaze&quot;,&quot;Windmill Hill&quot;]},&quot;title&quot;:&quot;Ward name&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Series&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Access to mobile broadband at home&quot;,&quot;Have used the internet in the last 3 months&quot;]},&quot;title&quot;:&quot;Series&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Ward name&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Ashley&quot;,&quot;Avonmouth &amp; Lawrence Weston&quot;,&quot;Bedminster&quot;,&quot;Bishopston &amp; Ashley Down&quot;,&quot;Bishopsworth&quot;,&quot;Brislington East&quot;,&quot;Brislington West&quot;,&quot;Central&quot;,&quot;Clifton&quot;,&quot;Clifton Down&quot;,&quot;Cotham&quot;,&quot;Easton&quot;,&quot;Eastville&quot;,&quot;Filwood&quot;,&quot;Frome Vale&quot;,&quot;Hartcliffe &amp; Withywood&quot;,&quot;Henbury &amp; Brentry&quot;,&quot;Hengrove &amp; Whitchurch Park&quot;,&quot;Hillfields&quot;,&quot;Horfield&quot;,&quot;Hotwells &amp; Harbourside&quot;,&quot;Knowle&quot;,&quot;Lawrence Hill&quot;,&quot;Lockleaze&quot;,&quot;Redland&quot;,&quot;Southmead&quot;,&quot;Southville&quot;,&quot;St George Central&quot;,&quot;St George Troopers Hill&quot;,&quot;St George West&quot;,&quot;Stockwood&quot;,&quot;Stoke Bishop&quot;,&quot;Westbury-on-Trym &amp; Henleaze&quot;,&quot;Windmill Hill&quot;]},&quot;title&quot;:&quot;Ward name&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -483,8 +483,244 @@ data-event-label="high"
       <caption>Percent who have access to mobile broadband</caption>
       <thead>
         
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">Series</th>
+        
+        
+        
+        <th scope="col" class="table-value">GeoCode</th>
+        
+        
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>39.2</td>
+          
+          
+          
+          <td>Access to mobile broadband at home</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>27.1</td>
+          
+          
+          
+          <td>Access to mobile broadband at home</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>29.2</td>
+          
+          
+          
+          <td>Access to mobile broadband at home</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>26.4</td>
+          
+          
+          
+          <td>Access to mobile broadband at home</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>89.7</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>91.3</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>94.9</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>89.0</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>92.8</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td>95.4</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td>94.7</td>
+          
+          
+          
+          <td>Have used the internet in the last 3 months</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -1068,7 +1304,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2b31a9f9d8e1a496054d4bbf3c1487a6d4d1278b" target="_blank">
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2f9eb5f041f13462787e560ca003f1f58d4bba62" target="_blank">
                 2021-09-30: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1095,7 +1331,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2b31a9f9d8e1a496054d4bbf3c1487a6d4d1278b" target="_blank">
+              <a href="https://github.com/sdg-bristol/sdg-data-bristol/commit/2f9eb5f041f13462787e560ca003f1f58d4bba62" target="_blank">
                 2021-09-30: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -2013,7 +2249,7 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-site-bristol/assets/js/sdg.js?v=20210930104606'></script>
+<script src='/sdg-site-bristol/assets/js/sdg.js?v=20210930121053'></script>
 
 <script>
 $(function() {
