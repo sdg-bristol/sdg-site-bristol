@@ -113,11 +113,11 @@ map_options:
   minZoom: 4
   maxZoom: 16
   # If you would like to use tile (background) imagery, use these:
- tileURL: https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}
-  tileOptions:
-    id: jawg-light
-    accessToken: 6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg
-    attribution:  <a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="http://geoportal.statistics.gov.uk/">ONS</a>
+## tileURL: https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}
+##  tileOptions:
+##    id: jawg-light
+##    accessToken: 6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg
+##    attribution:  <a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="http://geoportal.statistics.gov.uk/">ONS</a>
   # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
   colorRange: chroma.brewer.BuGn
   # Set the color for boundaries that have no data.
