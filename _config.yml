@@ -111,7 +111,7 @@ footer_menu:
 map_options:
   # Control the limits on zooming in/out in the map:
   # If you would like to use tile (background) imagery, use these:
- tileURL: https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}
+  tileURL: https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}
   tileOptions:
     id: jawg-light
     accessToken: 6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg
