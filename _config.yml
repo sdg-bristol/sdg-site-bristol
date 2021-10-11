@@ -30,6 +30,10 @@ graph_color_set: accessible
 # single: One button containing "A" which toggles on/off, depending on which mode of contrast is active. This is recommended for the cleanest display.
 contrast_type: single
 
+# Controls whether to Display a cookie consent form (good to do so for GDPR)
+cookie_consent_form:
+  enabled: false
+
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 remote_data_prefix: "https://sdg-bristol.github.io/sdg-data-bristol"
