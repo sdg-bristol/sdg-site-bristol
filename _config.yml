@@ -46,6 +46,7 @@ metadata_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/cs
 # and some other required pages.
 create_indicators:
   layout: indicator
+  previous_next_links: false
 create_goals:
   layout: goal-by-target
 create_pages: true
