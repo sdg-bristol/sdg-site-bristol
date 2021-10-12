@@ -854,6 +854,14 @@
           "status": "complete"
         },
         {
+          "id": "8-1-1-a",
+          "title": "Annual growth rate of Gross value added (GVA)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-bristol/8-1-1-a",
+          "status": "notstarted"
+        },
+        {
           "id": "8-2-1",
           "title": "Annual growth rate of real GDP per employed person",
           "description": "",
@@ -1179,6 +1187,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-bristol/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "Proportion of the population who are refugees, by country of origin",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-bristol/10-7-4",
           "status": "notstarted"
         },
         {
