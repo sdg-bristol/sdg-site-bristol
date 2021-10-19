@@ -2850,8 +2850,8 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"tileURL":"https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}","tileOptions":{"id":"jawg-light","accessToken":"6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg","attribution":"<a href=\"http://jawg.io\" title=\"Tiles Courtesy of Jawg Maps\" target=\"_blank\">&copy; <b>Jawg</b>Maps</a> &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | <a href=\"http://geoportal.statistics.gov.uk/\">ONS</a>"},"minZoom":4},
-      mapLayers: [{"min_zoom":9,"max_zoom":13,"staticBorders":true,"subfolder":"wards","label":"Wards"}],
+      mapOptions: {"tileURL":"https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}","tileOptions":{"id":"jawg-light","accessToken":"6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg","attribution":"<a href=\"http://jawg.io\" title=\"Tiles Courtesy of Jawg Maps\" target=\"_blank\">&copy; <b>Jawg</b>Maps</a> &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors | <a href=\"http://geoportal.statistics.gov.uk/\">ONS</a>"},"minZoom":9},
+      mapLayers: [{"min_zoom":9,"max_zoom":15,"staticBorders":true,"subfolder":"wards","label":"Wards"}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
