@@ -1326,14 +1326,6 @@
           "status": "complete"
         },
         {
-          "id": "11-7-1-a",
-          "title": "Utilisation of outdoor space for exercise/health reasons",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-bristol/11-7-1-a",
-          "status": "notstarted"
-        },
-        {
           "id": "11-7-2",
           "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
           "description": "",
@@ -2187,22 +2179,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-bristol/17-19-2",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "indicator_11",
-      "title": "global_goals.indicator_11-title",
-      "indicators": [
-        
-        {
-          "id": "indicator_11-7-1-a",
-          "title": "global_indicators.indicator_11-7-1-a-title",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-site-bristol/indicator_11-7-1-a",
           "status": "notstarted"
         }]
     }
