@@ -2,7 +2,7 @@
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example:
-remote_theme: open-sdg/open-sdg@1.1.0
+remote_theme: open-sdg/open-sdg@1.5.0
 
 # Replace this title as needed.
 title: Indicators For The Sustainable Development Goals
@@ -12,18 +12,41 @@ url: ""
 data_dir: data
 environment: staging
 
+# Accessibility options
+# This setting can be set to true to enable tab functionality that is 
+# compliant with the WAI-ARIA best practices. This adds improved keyboard navigation of the tabs. 
+# This defaults to false, however setting this to true is recommended.
+accessible_tabs: true
+# This setting can be set to true to enable chart functionality that is
+# intended to increase accessibility by adding support for screenreaders and keyboard navigation.
+# This defaults to false, however setting this to true is recommended.
+accessible_charts: true
+# Graph colour set
+# Recommended is accessible
+graph_color_set: accessible
+# Contrast type controls the selector for high contrast.
+# default: Two buttons containing "A" - one for on and one for off (this is the default if you omit this setting)
+# long: If you use this option one single button will be displayed with the text 'High contrast' / 'Default contrast', depending on which mode of contrast is active.
+# single: One button containing "A" which toggles on/off, depending on which mode of contrast is active. This is recommended for the cleanest display.
+contrast_type: single
+
+# Controls whether to Display a cookie consent form (good to do so for GDPR)
+cookie_consent_form:
+  enabled: false
+
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 remote_data_prefix: "https://sdg-bristol.github.io/sdg-data-bristol"
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#sdg-bristol/sdg-data-bristol/edit/develop/csv-meta/[id].csv
 
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
 create_indicators:
   layout: indicator
+  previous_next_links: false
 create_goals:
   layout: goal-by-target
 create_pages: true
@@ -48,8 +71,11 @@ country:
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
 #frontpage_heading: Australian data for Sustainable Development Goal indicators
-#frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Australian statistics for Sustainable Development Goal global indicators.
+frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Bristol statistics for Sustainable Development Goal global indicators.
 
+# header can be used to specify new of old style header
+header:
+   include: header-menu-left-aligned.html
 # Pages
 collections:
   pages:
@@ -85,6 +111,37 @@ footer_menu:
     translation_key: SDGs - Bristol One City
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+
+map_options:
+  tileURL: https://{s}.tile.jawg.io/{id}/{z}/{x}/{y}{r}.png?access-token={accessToken}
+  tileOptions:
+    id: jawg-light
+    accessToken: 6D21hTioQUEfcuV4EEEg1UH4W98hoHu4k832Jdod3KqX9DMM2yClAkc8Zfs7XPKg
+    attribution:  <a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="http://geoportal.statistics.gov.uk/">ONS</a>
+  minZoom: 9
+
+map_layers:
+#  - min_zoom: 4
+#    max_zoom: 6
+#    staticBorders: true
+#    subfolder: country
+#    label: Country
+#  - min_zoom: 6
+#    max_zoom: 8
+#    staticBorders: true
+#    subfolder: regions
+#    label: Regions
+#  - min_zoom: 9
+#    max_zoom: 12
+#    staticBorders: true
+#    subfolder: local_authorities
+#    label: Local Authorities
+  - min_zoom: 9
+    max_zoom: 15
+    staticBorders: true
+    subfolder: wards
+    label: Wards
+
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
